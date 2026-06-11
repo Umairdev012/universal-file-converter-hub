@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Universal File Converter Hub
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/css/responsive.css"
+    >
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="container">
+
+            <div class="logo">
+
+                <h2>
+                    Converter Hub
+                </h2>
+
+            </div>
+
+            <button class="header-btn">
+
+                Multi Tool Suite
+
+            </button>
+
+        </div>
+
+        <button id="themeBtn">
+    🌙
+</button>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <h1>
+
+                Universal File Converter Hub
+
+            </h1>
+
+            <p>
+
+                Convert Images, PDFs, Generate QR Codes,
+                Compress Files and More.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- TOOLS GRID -->
+
+    <section class="tools-section">
+
+        <div class="container">
+
+            <div class="tools-grid">
+
+                <div class="tool-card"
+                    data-tool="pngToJpg">
+
+                    <h3>
+                        PNG → JPG
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="jpgToPng">
+
+                    <h3>
+                        JPG → PNG
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="webpToPng">
+
+                    <h3>
+                        WEBP → PNG
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="webpToJpg">
+
+                    <h3>
+                        WEBP → JPG
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="compress">
+
+                    <h3>
+                        Compress Image
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="resize">
+
+                    <h3>
+                        Resize Image
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="imagePdf">
+
+                    <h3>
+                        Image → PDF
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="pdfImage">
+
+                    <h3>
+                        PDF → Image
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="qr">
+
+                    <h3>
+                        QR Generator
+                    </h3>
+
+                </div>
+
+                <div class="tool-card"
+                    data-tool="password">
+
+                    <h3>
+                        Password Generator
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- WORK AREA -->
+
+    <section class="workspace">
+
+        <div class="container">
+
+            <div class="workspace-card">
+
+                <h2 id="toolTitle">
+
+                    Select A Tool
+
+                </h2>
+
+                <input
+                    type="file"
+                    id="fileInput"
+                >
+
+                <div id="extraControls">
+
+                </div>
+
+                <button
+                    id="processBtn">
+
+                    Process
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RESULT -->
+
+    <section class="result-section">
+
+        <div class="container">
+
+            <h2>
+
+                Result
+
+            </h2>
+
+            <div id="resultArea">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container">
+
+            <p>
+
+                © 2026 Universal File Converter Hub
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- LIBRARIES -->
+
+
+    <script src="libs/qrcode.min.js"></script>
+
+    <script src="libs/pdfjs.min.js"></script>
+
+    <!-- APP FILES -->
+
+    <script src="assets/js/imageConverter.js"></script>
+
+    <script src="assets/js/imageCompressor.js"></script>
+
+    <script src="assets/js/imageResizer.js"></script>
+
+    <script src="assets/js/pdfTools.js"></script>
+
+    <script src="assets/js/qrGenerator.js"></script>
+
+    <script src="assets/js/passwordGenerator.js"></script>
+
+    <script src="assets/js/app.js"></script>
+
+    <div id="dropZone">
+
+    <h3>
+        Drag & Drop File Here
+    </h3>
+
+    <p>
+        or click below to browse
+    </p>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc =
+'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</div>
+
+</body>
+
+</html>

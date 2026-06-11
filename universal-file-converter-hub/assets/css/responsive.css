@@ -1,0 +1,192 @@
+/* =========================
+   LARGE TABLETS
+========================= */
+
+@media (max-width:992px){
+
+    .hero{
+
+        padding:70px 0;
+
+    }
+
+    .hero h1{
+
+        font-size:46px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .tools-grid{
+
+        grid-template-columns:
+        repeat(auto-fit,minmax(200px,1fr));
+
+    }
+
+}
+
+/* =========================
+   TABLETS
+========================= */
+
+@media (max-width:768px){
+
+    header .container{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .logo h2{
+
+        font-size:24px;
+
+    }
+
+    .hero{
+
+        padding:60px 0;
+
+    }
+
+    .hero h1{
+
+        font-size:38px;
+
+    }
+
+    .hero p{
+
+        font-size:15px;
+
+    }
+
+    .workspace-card{
+
+        padding:25px;
+
+    }
+
+    #processBtn{
+
+        width:100%;
+
+    }
+
+}
+
+/* =========================
+   MOBILE PHONES
+========================= */
+
+@media (max-width:576px){
+
+    .container{
+
+        width:95%;
+
+    }
+
+    .hero{
+
+        padding:45px 0;
+
+    }
+
+    .hero h1{
+
+        font-size:30px;
+
+        line-height:1.3;
+
+    }
+
+    .hero p{
+
+        font-size:14px;
+
+    }
+
+    .tool-card{
+
+        padding:30px 15px;
+
+    }
+
+    .tool-card h3{
+
+        font-size:18px;
+
+    }
+
+    .workspace-card{
+
+        padding:20px;
+
+    }
+
+    .workspace-card h2{
+
+        font-size:22px;
+
+    }
+
+    #fileInput{
+
+        font-size:14px;
+
+    }
+
+    #processBtn{
+
+        padding:16px;
+
+        font-size:15px;
+
+    }
+
+    #resultArea{
+
+        padding:20px;
+
+        min-height:180px;
+
+    }
+
+}
+
+/* =========================
+   EXTRA SMALL PHONES
+========================= */
+
+@media (max-width:400px){
+
+    .hero h1{
+
+        font-size:26px;
+
+    }
+
+    .logo h2{
+
+        font-size:20px;
+
+    }
+
+    .header-btn{
+
+        padding:12px 18px;
+
+        font-size:14px;
+
+    }
+
+}
